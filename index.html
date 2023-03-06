@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>MandroEstado.cl</title>
+</head>
+
+<body style="background-color: rgb(250, 250, 230);">
+    <nav class="navbar navbar-expand bg-success">
+        <div class="container-fluid grid gap-0 column-gap-2">
+            <img class="img-fluid rounded" src="IMG\e039283a80717e820e80c36617a3d36c.jpg" width="60" alt="">
+            <span class="navbar-brand  mb-0 h1  text-light ">MandroEstado</span>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap gap-0 column-gap-2">
+                <li class="text-light">Inicio</li>
+                <li class="text-light">Menú</li>
+            </ul>
+            <div class="col-md-3 text-end">
+                <button class="btn btn-outline-light">Registrarse</button>
+            </div>
+        </div>
+    </nav>
+    <hr>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="card col" style="width: 18rem;">
+                <img src="IMG\usuarioimg.png" class="card-img-top" width="40%" height="30%" alt="fotoko">
+                <div class="card-body">
+                    <h5 class="card-title">Inicie Sesión</h5>
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Usuario</label>
+                            <input type="User" class="form-control" id="User"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="password">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Recuérdame</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary" onclick="login()">Continuar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col d-flex flex-column mb-3">
+                <img class="img-fluid p-2" src="IMG\mandrolog.png" width="426px" height="271px" alt="">
+                <span class="p-2 fs-3 fst-italic">El mejor Banco!, seguro y de confianza!, nada sospechoso ni <p class="text-decoration-line-through">fraudulento.</p></span>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
