@@ -1,0 +1,57 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    flex-flow: flow;
+    align-items: center;
+    margin: 0px;
+    display: flex;
+    width: 100vw;
+    background-color: rgb(95, 179, 123);
+
+}
+#nav-buttons{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+#title{
+    align-self: center;
+    font-size: 200%;
+    color: aliceblue;
+    padding-left: 5%;
+}
+#item-nav{
+    background-color: rgb(40, 20, 87);
+    margin: 5%;
+    padding: 7%;
+    color: aliceblue;
+    border-radius: 60vw;
+        border-color: solid,  black;
+        align-self: center;
+    }
+#mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: flow;
+    border: 0PX;
+    padding-top: 100PX;
+    margin-left: 0px;
+
+}
+#card{
+    margin-left: 0px;
+}
+#imgIcon{
+    width: 100px;
+    justify-self:center;
+}
+#mandroTitle{
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 40%;
+}
