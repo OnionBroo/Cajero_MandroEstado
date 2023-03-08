@@ -41,7 +41,19 @@ body{
     border: 0PX;
     padding-top: 100PX;
     margin-left: 0px;
+    padding-bottom: 10%;
 
+}
+#mainContainer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: flow;
+    border: 0PX;
+    padding-top: 100PX;
+    margin-left: 0px;
+    padding-bottom: 10%;
+    justify-content:space-around;
 }
 #card{
     margin-left: 0px;
