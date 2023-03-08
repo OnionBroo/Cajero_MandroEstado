@@ -10,7 +10,7 @@ body{
     margin: 0px;
     display: flex;
     width: 100vw;
-    background-color: rgb(95, 179, 123);
+   
 
 }
 #nav-buttons{
@@ -28,11 +28,13 @@ body{
     background-color: rgb(40, 20, 87);
     margin: 5%;
     padding: 7%;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     border-radius: 60vw;
-        border-color: solid,  black;
-        align-self: center;
-    }
+    align-self: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
 #mainContainer{
     display: flex;
     justify-content: center;
@@ -61,6 +63,7 @@ body{
 #imgIcon{
     width: 100px;
     justify-self:center;
+    border-radius: 5%;
 }
 #mandroTitle{
     padding-left: 3%;
