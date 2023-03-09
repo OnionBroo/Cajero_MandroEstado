@@ -39,7 +39,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: flow;
     border: 0PX;
     padding-top: 100PX;
     margin-left: 0px;
@@ -50,7 +49,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: flow;
     border: 0PX;
     padding-top: 100PX;
     margin-left: 0px;

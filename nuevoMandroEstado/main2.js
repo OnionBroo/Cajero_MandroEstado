@@ -1,5 +1,7 @@
 console.log("hola")
 
+
+
 /*Usuarios*/
 
 const users = [
@@ -52,7 +54,10 @@ btn4.addEventListener("click", (eventIV)=>{
     eventIV.preventDefault()
     cardIngresar.style.display = "block"
 })
-
+const persona = {nombre:"Andro"}
+console.log(persona.nombre)
+const dineroIngresadoT = 100
+console.log(dineroIngresadoT.value)
 console.log("toi afuero de ingresar")
 btnIngresar.addEventListener("click", (eventI)=>{
     
@@ -64,7 +69,7 @@ btnIngresar.addEventListener("click", (eventI)=>{
     eventI.preventDefault()
     console.log("ingresee")
     console.log(dineroIngresado)
-    const v1 = parseInt(dineroIngresado.value)
+    const v1 = parseInt(dineroIngresado)
     for(i = 0; i < users.length; i++){
         if(passIngresar == users[i].contraseña){
              const saldoFinalI = (users[i].saldo + v1);
@@ -82,7 +87,7 @@ btn5.addEventListener("click", (event)=>{
 })
 
 btnRetirar.addEventListener("click", (eventR)=>{
-   
+   console.log("toi dentro de reirar jiji")
    let dineroRetirado, passRetirar
       
    dineroRetirado = document.getElementById("dineroRetirado").value
