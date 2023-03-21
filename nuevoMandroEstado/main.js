@@ -1,9 +1,9 @@
 console.log("hola")
 
 const users = [
-    {nombre: "Andro", saldo: 770 , contraseña: "1", pag:"http://127.0.0.1:5500/nuevoMandroEstado/index2.html"},
-    {nombre: "Manzana", saldo: 340, contraseña: "12", pag:"http://127.0.0.1:5500/nuevoMandroEstado/index3.html"},
-    {nombre: "Vergil", saldo: 203 , contraseña: "123", pag: "http://127.0.0.1:5500/nuevoMandroEstado/index4.html"},
+    {nombre: 'Andro', saldo: 770 , contraseña: 'perroespia', pag:"http://127.0.0.1:5500/nuevoMandroEstado/index2.html"},
+    {nombre: 'Manzana', saldo: 340, contraseña: 'jebs', pag:"http://127.0.0.1:5500/nuevoMandroEstado/index3.html"},
+    {nombre: 'Vergil', saldo: 203 , contraseña: 'motivated', pag: "http://127.0.0.1:5500/nuevoMandroEstado/index4.html"},
 ]
 
 localStorage.setItem("usersLocal", JSON.stringify(users));
